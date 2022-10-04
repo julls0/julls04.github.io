@@ -1,1 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logotip.png" type="text/css">
+  </head>
 
+  <body>
+    <header>
+      <div class="container">
+        <div class="head">
+          <img src="logotip.png" alt=""/>
+          <p class="title">Задание 3</p>
+        </div>
+      </div>
+    </header>
+    <nav>
+      <div id="sslki">
+        <a class="button" href="#table">Таблица</a>
+        <a class="button" href="#form">Форма</a>
+        <a class="button" href="#footer">Футер</a>
+      </div>
+    </nav>
+    <meta charset="utf-8">
+    <title>Julls's Page</title>
+    <style>
+      body {
+        background: #7B68EE
+      }
+    </style>
+   <div class="content">      
+  <a href="#about">Каталог</a>
+  <h2> Гиперссылки </h2>
+<ol>
+  <li><a href="http://example.com"> Сайт №1</a></li>
+  <li><a href="https://example.com"> Сайт №2</a></li>
+  <li><a href="ftp://vk.com/Temp/file.txt">FTP без авторизации</a></li>
+  <li><a href="ftp://user:123pass@vk.com/Temp/file.txt">FTP с авторизацией</a></li>
+  <li><a href="https://yandex.ru/turbo/lifehacker.ru/s/kon-bodzhek/#:~:text=3.%20%D0%A0%D0%B0%D0%B7%D0%B1%D0%B8%D1%82%D1%8B%D0%B5%20%D0%BE%D1%82%D0%BD%D0%BE%D1%88%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BD%D0%B5%20%D1%81%D0%BA%D0%BB%D0%B5%D0%B8%D1%82%D1%8C%20%D0%BA%D1%80%D0%B0%D1%81%D0%B8%D0%B2%D1%8B%D0%BC%20%D0%B6%D0%B5%D1%81%D1%82%D0%BE%D0%BC">Фрагмент страницы</a></li>
+  <li><a href="#form">Фрагмент текущей страницы</a></li>
+  <li><a href="https://future.com/?value=parametr&size=20">Два параметра</a></li>
+  <li></li>
+  <ul class="menu">
+    <li><a href="#header">Начальная страница</a></li>
+    <li><a href="#form">Заполнение формы</a></li>
+    <li><a href="#footer">Завершение</a></li>
+  </ul>
+  <li><a>Отсутствие href</a></li>
+  <li><a href="">Пустой href</a></li>
+  <li><a href="https://ok.ru/profile/344235494875" rel="nofollow"> Запрещена переходу поисковикам</a></li>
+  <li><noindex><a href="https://yandex.ru">Запрещена для индексации</a></noindex></li>
+  <li> <p>По сюжету, спасаясь от злого волшебника Гаргамеля, крошечные <a href="https://ru.wikipedia.org/wiki/Смурфики"> смурфики</a> оказываются за пределами родной деревни. Из своего волшебного мира они попадают прямиком в наш мир, а именно в Центральный парк города Нью-Йорк.
+  <li></li>
+  <p><a href="https://www.space.com/"><img src="https://proprikol.ru/wp-content/uploads/2020/06/krasivye-kartinki-zvezd-10.jpg" width="360" height="360" border="0" alt="Alt text"></a></p>
+  <li>
+    <img src="CIRCLE1.jpg" usemap="#Circle" alt="Circle" width="420" height="420"> <map name="Circle">
+    <area shape ="circle" coords ="210,210,125" href="http://www.bards.ru/archives/part.php?id=19662" alt="Circle">
+    </map>
+    <img src="RECT.1.jpg" usemap="#Rect" alt="Rect" width="450" height="380"> <map name="Rect">
+    <area shape ="rect" coords ="62,69,388,310" href="https://en.wikipedia.org/wiki/Sadness" alt="Rect">
+  </map>
+ </li>
+  <li><a href="about">На страницу в текущем каталоге</a></li>
+  <li><a href="about/8">На страницу в каталоге about</a></li>
+  <li><a href="../about">Уровень выше текущего</a></li>
+  <li><a href="../../about">Двумя уровнями выше текущего</a></li>
+  <li><a href="/about">Сокращенная на главную</a></li>
+  <li><a href="/about/8">Сокращенная на внутреннюю</a></li>
+</ol>
+     <div id="tableforma">
+  <div id="table">Таблица рождаемости
+  <table class="table"><table>
+    <tbody>
+   <tr>
+    <th>&nbsp;</th>
+     <th>1990</th>
+     <th>1995</th>
+     <th>2000</th>
+   </tr>
+   <tr class="even">
+    <td class="la">Май</td><td>43</td><td>51</td><td>79</td>
+   </tr>
+   <tr>
+    <td class="la">Июнь</td><td>28</td><td>34</td><td>48</td>
+   </tr>
+   <tr class="even">
+    <td class="la">Июль</td><td>29</td><td>57</td><td>36</td>
+   </tr>
+   <tr>
+    <td class="la">Август</td><td>23</td><td>64</td><td>97</td>
+   </tr>
+  </table>
+   </tbody>
+  </div>
+ 
+  <div id="form"> Форма 
+  <form action="/" method="POST">
+    <label>
+      Имя: <br />
+      <input name="Имя" placeholder="Введите имя" />
+    </label>
+    <br />
+    
+    <label>
+      E-mail: <br />
+      <input name="E-mail" type="email" placeholder="Введите почту" />
+    </label>
+    <br />
+    
+    <label>
+      Дата рождения: <br />
+      <input name="Дата рождения" type="date" value="2003-05-09">
+    </label>
+    <br />
+  
+    Пол: <br>
+  <label>
+    <input type="radio" checked="checked" name="number1" value="Мужской" />
+    Мужской
+  </label>
+  <label>
+    <input type="radio" name="number1" value="Женский" />
+    Женский
+  </label>
+  <br />
+    Количество конечностей: <br>
+    <label>
+      <input type="radio" name="number2" checked="checked" value="Number" />
+      2</label>
+    <label>
+      <input type="radio" name="number2" value="Number" />
+      4</label>
+    <label>
+      <input type="radio" name="number2" value="Number" />
+      6</label>
+    <label>
+      <input type="radio" name="number2" value="Number" />
+      8</label>
+    <label>
+      <input type="radio" name="number2" value="Number" />
+      40</label>
+    <br />
+    
+    <label>
+      Сверхспособности: <br />
+      <select name="name-the-points-3[]" multiple="multiple">
+        <option value="бессмертие" selected="selected">Бессмертие</option>
+        <option value="прохождение сквозь стены">Прохождение сквозь стены</option>
+        <option value="левитация">Левитация</option>
+      </select>
+    </label>
+      <br />
+      
+    <label>
+      Биография: <br />
+      <textarea name="the-name">Расскажите о себе..</textarea>
+      <br>
+      </label>
+      
+       <label> <input type="checkbox" checked="checked" name="check">С контрактом ознакомлен(-а)</label><br>
+      <input type="submit" value="Отправить">
+      </form>
+     </div>
+    </div>
+     </div>
+     <footer>
+     <span id="footer">(c) Дамирчян Юлианна, <time datetime="2022"> 2022</time> </span>
+     </footer>
+  </body>
+  </html>
